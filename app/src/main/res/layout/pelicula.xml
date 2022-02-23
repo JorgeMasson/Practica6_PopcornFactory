@@ -11,7 +11,7 @@
         android:orientation="vertical" >
 
         <ImageView
-            android:id="@+id/iv_peliculas"
+            android:id="@+id/iv_pelicula"
             android:layout_width="113dp"
             android:layout_height="85dp"
             android:layout_gravity="center"
