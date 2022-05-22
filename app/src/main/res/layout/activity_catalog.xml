@@ -25,6 +25,7 @@
                 android:fontFamily="@string/fuenteTitulos"
                 android:textAllCaps="true"
                 android:textStyle="bold"
+                android:paddingVertical="20dp"
                 android:layout_marginLeft="15dp"
                 android:textSize="20sp"
                 android:textColor="@color/tituloGrande"

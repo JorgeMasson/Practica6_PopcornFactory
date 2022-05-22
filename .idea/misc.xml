@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/j_mas/AndroidStudioProjects/PopCornFactory/app/src/main/res/drawable/fondo.xml" value="0.207" />
+        <entry key="..\:/Users/j_mas/AndroidStudioProjects/PopCornFactory/app/src/main/res/drawable/radio_disabled.xml" value="0.223" />
+        <entry key="..\:/Users/j_mas/AndroidStudioProjects/PopCornFactory/app/src/main/res/drawable/radio_normal.xml" value="0.223" />
+        <entry key="..\:/Users/j_mas/AndroidStudioProjects/PopCornFactory/app/src/main/res/drawable/radio_selectable.xml" value="0.223" />
+        <entry key="..\:/Users/j_mas/AndroidStudioProjects/PopCornFactory/app/src/main/res/drawable/radio_selected.xml" value="0.223" />
         <entry key="..\:/Users/j_mas/AndroidStudioProjects/PopCornFactory/app/src/main/res/drawable/round_button.xml" value="0.207" />
         <entry key="..\:/Users/j_mas/AndroidStudioProjects/PopCornFactory/app/src/main/res/layout/activity_catalog.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/j_mas/AndroidStudioProjects/PopCornFactory/app/src/main/res/layout/activity_detalle_pelicula.xml" value="0.25416666666666665" />

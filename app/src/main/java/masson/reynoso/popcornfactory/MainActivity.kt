@@ -87,6 +87,7 @@ class PeliculaAdapter: BaseAdapter {
             intent.putExtra("header", pelicula.header)
             intent.putExtra("sinopsis", pelicula.sinopsis)
             intent.putExtra("numerSeats", (20 - pelicula.seats.size))
+            intent.putExtra("pos", p0)
             context!!.startActivity(intent)
         }
 

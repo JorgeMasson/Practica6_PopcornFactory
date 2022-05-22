@@ -1,4 +1,5 @@
 package masson.reynoso.popcornfactory
 
 data class Cliente (var nombre: String,
-                    var tipoPago: Int)
+                    var tipoPago: Int,
+                    var asiento: Int)
