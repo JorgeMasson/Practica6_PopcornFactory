@@ -385,4 +385,15 @@
         
     </LinearLayout>
 
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_button"
+        android:textColor="@color/colorFondo"
+        android:text="Confirm"
+        android:paddingHorizontal="70dp" />
+
 </LinearLayout>
