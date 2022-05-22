@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="3pt">
 
     <LinearLayout
+        android:background="@drawable/fondo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
 
         <ImageView
+            android:layout_width="match_parent"
             android:id="@+id/iv_pelicula"
-            android:layout_width="113dp"
-            android:layout_height="85dp"
-            android:layout_gravity="center"
-            android:src="@drawable/bones" />
+            android:layout_height="wrap_content"
+            android:src="@drawable/bones"/>
 
         <TextView
-            android:id="@+id/tv_titulo_pelicula"
             android:layout_width="match_parent"
+            android:id="@+id/tv_titulo_pelicula"
+            android:textSize="16sp"
+            android:textColor="@color/tituloPeque"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-light"
             android:layout_height="wrap_content"
-            android:text="BONES"
-            android:textSize="15sp"
-            android:gravity="center" />
+            android:text="BONES"/>
 
     </LinearLayout>
 
