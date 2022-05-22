@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -77,13 +78,16 @@ class PeliculaAdapter: BaseAdapter {
         vista.tv_titulo_pelicula.setText(pelicula.titulo)
 
         vista.iv_pelicula.setOnClickListener {
+            var seatsAvailable = 20 - pelicula.seats.size
+            Log.d("SEATS", "$seatsAvailable")
+
             var intent = Intent(context, DetallePelicula::class.java)
 
             intent.putExtra("titulo", pelicula.titulo)
             intent.putExtra("imagen", pelicula.imagen)
             intent.putExtra("header", pelicula.header)
             intent.putExtra("sinopsis", pelicula.sinopsis)
-            intent.putExtra("numerSeats", (20 - pelicula.seats.size))
+            intent.putExtra("numberSeats", seatsAvailable)
             intent.putExtra("pos", p0)
             context!!.startActivity(intent)
         }
