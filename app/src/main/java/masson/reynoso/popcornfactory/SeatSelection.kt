@@ -25,7 +25,7 @@ class SeatSelection : AppCompatActivity() {
         val btn_confirm: Button = findViewById(R.id.btn_confirm)
 
         btn_confirm.setOnClickListener {
-            Toast.makeText(this, "Enjor the movie!", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Enjoy the movie!", Toast.LENGTH_LONG).show()
         }
 
         val row1: RadioGroup = findViewById(R.id.row1)
